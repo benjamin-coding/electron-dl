@@ -17,6 +17,10 @@ declare namespace electronDl {
 
 	interface Options {
 		/**
+		 * Modify Dialog title
+		 */
+		readonly title?: String;
+		/**
 		Show a `Save As…` dialog instead of downloading immediately.
 
 		Note: Only use this option when strictly necessary. Downloading directly without a prompt is a much better user experience.
